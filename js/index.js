@@ -18,9 +18,8 @@ var myScript = new function() {
 	}
 	
 	me.init = function () {
-		navList = document.querySelector	('ul.top-nav');
+		navList = document.querySelector('ul.top-nav');
 		
-		console.log(navList);
 		navList.addEventListener('click', clickEvent);
 		
 	}	
